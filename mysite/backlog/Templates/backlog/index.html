@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+YO!
+{% if tasks %}
+    <ul>
+        {% for task in tasks %}
+            <li>
+                I say something
+            </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No tasks.</p>
+{% endif %}
+</body>
+</html>
